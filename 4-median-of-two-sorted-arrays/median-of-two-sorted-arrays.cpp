@@ -2,8 +2,6 @@ class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         vector<int> nums3;
-        int start = 0;
-        int end = 0;
         for(int i = 0 ; i< nums1.size();i++){
             nums3.push_back(nums1[i]);
         }
